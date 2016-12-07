@@ -1,0 +1,67 @@
+.root {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.todo {
+    margin: 16px;
+    user-select: none;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.input {
+    overflow: hidden;
+    border: none;
+    padding: 5px;
+    width: 395px;
+    border: 1px solid lightgrey;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.edit {
+    width: 24px;
+    height: 24px;
+    background-color: #53c73d;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.edit_icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 2px;
+    margin-top: 2px;
+}
+
+.edit_icon:active {
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.delete {
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+.delete_icon {
+    width: 24px;
+    height: 24px;
+}
+
+.completed {
+    composes: todo;
+
+    text-decoration: line-through;
+    font-style: italic;
+    color: lightgrey;
+}
