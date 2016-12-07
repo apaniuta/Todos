@@ -19,4 +19,4 @@
 
 ###Try it online
 
-http://apaniuta.github.io/memorize
+http://apaniuta.github.io/todos
